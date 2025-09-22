@@ -100,11 +100,11 @@ WiniSortsProject/
 
 In your training notebook, export models/tokenizer/labels:
 
-# saves to /content/winisorts_export (.../primary, .../method, .../categories, tokenizer, inference_config.json)
-# zip → download → unzip into WiniSortsProject/api/
+saves to /content/winisorts_export (.../primary, .../method, .../categories, tokenizer, inference_config.json)
+zip → download → unzip into WiniSortsProject/api/
 
 Each task folder must contain:
-- The TF model (tf_model.h5)  
+- The BERT model (categories, primary, methodology)  
 - labels.json  
 - Tokenizer files in tokenizer/  
 - inference_config.json defining max_length and multi-label threshold  
