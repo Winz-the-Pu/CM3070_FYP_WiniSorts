@@ -1,4 +1,4 @@
-**IMPORTANT!!!**
+**IMPORTANT!!! Hi examiners look here!!!**
 **## Model Downloads**
 
 The trained BERT model files are too large to store on GitHub (>400MB each).  
@@ -7,13 +7,20 @@ They can be downloaded here: Google Drive Link: https://drive.google.com/drive/f
 After downloading, unzip into `api/winisorts_export/` so the structure looks like:
 
 api/winisorts_export/
+
 ├─ primary/...
+
 ├─ method/...
+
 ├─ categories/...
+
 ├─ tokenizer/...
+
 └─ inference_config.json
 
 This ensures the Flask API can load the models properly.
+
+This is the link to my Colab notebook so you can see how i trained and evaluate the models: https://colab.research.google.com/drive/1-I5PzrIzN2NONsdNE8fR8koKYAVFFf9i?usp=sharing 
 
 ---
 
