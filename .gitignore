@@ -1,0 +1,16 @@
+# Ignore Python virtual environments
+.venv/
+venv/
+
+# Ignore model exports
+api/winisorts_export/
+
+# Ignore cache & temp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,16 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+}
