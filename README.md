@@ -57,19 +57,33 @@ Results are saved to Firebase Firestore to form a real-time, collaborative mini-
 --- 
 
 **Project Structure**
+
 WiniSortsProject/
+
 ├─ frontend/                 # static SPA
+
 │  ├─ index.html
+
 │  ├─ app.js
+
 │  └─ style.css
+
 └─ api/                      # Flask inference API
+
    ├─ app.py
+   
    ├─ requirements.txt
+   
    └─ winisorts_export/      # exported models & tokenizer
+   
       ├─ inference_config.json
+      
       ├─ tokenizer/...
+      
       ├─ primary/...
+      
       ├─ method/...
+      
       └─ categories/...
       
 ---
