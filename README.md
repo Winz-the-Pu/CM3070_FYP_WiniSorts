@@ -2,7 +2,7 @@
 **## Model Downloads**
 
 The trained BERT model files are too large to store on GitHub (>400MB each).  
-They can be downloaded here: [Google Drive Link]([https://drive.google.com/...](https://drive.google.com/drive/folders/1hHywtZq4rsgNsuLJgw0EqmbwTwV85Mxj?usp=sharing))  
+They can be downloaded here: Google Drive Link: https://drive.google.com/drive/folders/1hHywtZq4rsgNsuLJgw0EqmbwTwV85Mxj?usp=sharing 
 
 After downloading, unzip into `api/winisorts_export/` so the structure looks like:
 
